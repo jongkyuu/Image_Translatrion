@@ -1,0 +1,25 @@
+#drop_zone {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+#drop_zone:hover {
+  background-color: #f7f7f7;
+}
+
+#drop_zone img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#image_display {
+  margin-top: 30px;
+}
